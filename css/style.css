@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.navigator::after{
+.content::after{
     content: "";
     display: table;
     clear: both;
@@ -16,33 +16,35 @@
 body{
     font-family: 'Open Sans',sans-serif;
 }
-
+nav.content {
+    background-color: white;
+}
 .left {
     width: 705px;
     float: left;
-    background-color: white;
+   
 }
 .right {
     display: inline;
     float: right;
     width: 700px;
-    background-color: white
+   
 }
 .site_hearder {
-    height: 900px;
+    height: 1000px;
     background-color: rgba(180, 208, 231, 1);
     line-height: 50px;
 }
 .logo {
     margin-left: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 10px;
     height: 50px;
     float: left;
     display: inline-block;
 }
 .menu {
-   margin-top: 35px;
+   margin-top: 20px;
    
 }
 .menu a {
@@ -60,8 +62,8 @@ a.btn{
     
 }
 .titolo h1 {
-    line-height: 1.5;
-    font-size: 72px;
+    line-height: 1;
+    font-size: 115px;
     padding: 4rem;
     margin-left: 86px;
 }
@@ -91,5 +93,14 @@ a.btn2 {
 .fas {
     font-size: 40px;
     margin-top: 3rem;
+}
+.img {
+    float: right;
+    height: 750px;
+    margin-right: 300px;
+    float: right;
+    width: 1370px;
+    background-image: url(../img/jumbo\ \(1\).png);
+    background-size: contain;
 }
 
