@@ -9,23 +9,54 @@
     display: table;
     clear: both;
 }
-
-.nav {
-    height: 50px;
-    
+.list-inline li {
+    list-style: none;
+    display: inline-block;
 }
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
 .left {
-    width: 700px;
+    width: 705px;
     float: left;
-    background-color: aqua;
+    background-color: white;
 }
 .right {
     display: inline;
     float: right;
-    width: 673px;
-    background-color: aquamarine;
+    width: 700px;
+    background-color: white
 }
 .site_hearder {
     height: 800px;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.233);
+    line-height: 50px;
 }
+.logo {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 10px;
+    height: 50px;
+    float: left;
+    display: inline-block;
+}
+.menu {
+   margin-top: 35px;
+   
+}
+.menu a {
+    padding-left: 2rem;
+    text-decoration: none;
+    color: black;
+    
+}
+a.btn{
+    background-color: rgba(0, 97, 255, 1);
+    color: white;
+    padding: 0.5rem 1rem ;
+    margin-left: 3rem;
+    
+}
+
+
