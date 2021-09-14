@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav {
+    height: 50px;
+    
+}
+.left {
+    width: 700px;
+    float: left;
+    background-color: aqua;
+}
+.right {
+    display: inline;
+    float: right;
+    width: 673px;
+    background-color: aquamarine;
+}
+.site_hearder {
+    height: 800px;
+    background-color: blue;
+}
