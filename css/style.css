@@ -3,11 +3,15 @@
     margin: 0;
     padding: 0;
 }
-.content::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+/*hearder*/
 .content {
     background-color:rgba(180, 208, 231, 1) ;
 }
@@ -15,38 +19,36 @@
     list-style: none;
     display: inline-block;
 }
-body{
-    font-family: 'Open Sans',sans-serif;
+.site_header {
+    padding: 20px;
 }
-nav.content {
+.nav {
+    width: 50%;
+    float: left; 
     background-color: white;
 }
-.left {
-    width: 705px;
-    float: left;
-   
+.nav.right {
+    text-align: right;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
-.right {
-    display: inline;
-    float: right;
-    width: 700px;
+.lista {
+    display: inline-block;
+    vertical-align: middle;
 }
 .logo {
-    margin-left: 100px;
-    margin-top: 1rem;
-    padding: 10px;
     height: 50px;
+    width: auto;
     display: inline-block;
+    vertical-align: middle;
 }
-.menu {
-    margin-top: 20px;
-    float: right;
-}
-.menu a {
+.list-inline a {
     padding-left: 3rem;
     text-decoration: none;
     color: black; 
 }
+
+/*main*/
 a.btn{
     background-color: rgba(0, 97, 255, 1);
     color: white;
@@ -95,12 +97,6 @@ a.btn2 {
 }
 .site_main{
     position: relative;
-}
-.tariffe{
-    height: 1500px;
-    width: 2000px;
-    position: absolute;
-  
 }
 .tariffe h1 {
     padding-top: 6rem;
