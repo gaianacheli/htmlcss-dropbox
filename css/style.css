@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
 }
-
 .content::after{
     content: "";
     display: table;
     clear: both;
+}
+.debug main {
+    height: 2000px;
+    background-color: tomato;
 }
 .list-inline li {
     list-style: none;
@@ -102,5 +105,36 @@ a.btn2 {
     width: 1370px;
     background-image: url(../img/jumbo\ \(1\).png);
     background-size: contain;
+}
+.tariffe h1 {
+    text-align: center;
+    padding-top: 288px;
+    font-size: 50px;
+}
+.box1 {
+    height: 500px;
+    width: 300px;
+    float: left;
+    background-color: teal;
+    margin-left: 800px;
+    margin-top: 200px;
+   
+}
+.box3 {
+    height: 500px;
+    width: 300px;
+    float: right;
+    background-color: teal;
+    margin-right: 800px;
+    margin-top: 200px;
+}
+.box2{
+    height: 500px;
+    width: 300px;
+    background-color: teal;
+    margin-top: 200px;
+    margin-left: 190px;
+    display: inline-block;
+    
 }
 
