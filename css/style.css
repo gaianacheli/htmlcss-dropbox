@@ -158,8 +158,8 @@ a.btn2 {
     left: 17%;
 }
 .cerchio1{
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     position: absolute;
     border-radius: 20px;
     border-style: solid;
@@ -167,6 +167,22 @@ a.btn2 {
     
 }
 .mesi{
+    font-size: 11px;
     position: absolute;
-    left: 25px;
+    left: 18px;
+}
+.cerchio2 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey
+}
+.anno{
+    font-size: 11px;
+    position: absolute;
+    left: 219px;
 }
