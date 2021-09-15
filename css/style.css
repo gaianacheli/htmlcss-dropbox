@@ -138,14 +138,14 @@ a.btn2 {
     display: inline-block;
 }
 .box-4 {
-    height: 200px;
-    width: 1214px;
+    height: 230px;
+    width: 1326px;
     border-style: solid;
     border-color: #bdbabad4;
     border-width: 2px;
     position: absolute;
     top: 77%;
-    left: 19%;
+    left: 17%;
 }
 .ceck {
     height: 50px;
@@ -246,4 +246,13 @@ a.btn2 {
 }
 .box-3 h4 {
     padding: 2rem;
+}
+.box-4 h2  {
+    padding: 1rem;
+}
+.box-4 h5 {
+    padding: 1rem;
+}
+.soluzioni {
+    padding: 1rem;
 }
