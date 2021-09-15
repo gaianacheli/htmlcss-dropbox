@@ -44,8 +44,8 @@ nav.content {
     display: inline-block;
 }
 .menu {
-   margin-top: 20px;
-   
+    margin-top: 20px;
+    float: right;
 }
 .menu a {
     padding-left: 3rem;
@@ -116,7 +116,7 @@ a.btn2 {
     margin-left: 342px;
     font-size: 38px;
 }
-.box1 {
+.box-1 {
     height: 900px;
     width: 300px;
     border-style: solid;
@@ -126,7 +126,7 @@ a.btn2 {
     margin-left: 346px;
     margin-top: 90px;
 }
-.box3 {
+.box-3 {
     height: 900px;
     width: 300px;
     float: right;
@@ -136,7 +136,7 @@ a.btn2 {
     margin-right: 334px;
     margin-top: 90px;
 }
-.box2{
+.box-2{
     height: 900px;
     width: 300px;
     border-style: solid;
@@ -146,7 +146,7 @@ a.btn2 {
     margin-left: 212px;
     display: inline-block;
 }
-.box4 {
+.box-4 {
     height: 200px;
     width: 1214px;
     border-style: solid;
@@ -199,10 +199,10 @@ a.btn2 {
 .fa-pencil{
     font-size: 10px;
 }
-.box1 h2 {
+.box-1 h2 {
     padding: 1rem;
 }
-.box1 p {
+.box-1 p {
     padding: 1rem; 
     font-size: 11px;
 }
@@ -229,9 +229,30 @@ a.btn2 {
     margin-top: 2rem;
     color: rgba(128, 128, 128, 0.541);
 }
-.box1 h4 {
+.box-1 h4 {
     padding: 2rem;
 }
 .fa-check {
     color: rgba(0, 97, 255, 1); 
+}
+
+.box-2 h2 {
+    padding: 1rem;
+}
+.box-2 p {
+    padding: 1rem; 
+    font-size: 11px;
+}
+.box-2 h4 {
+    padding: 2rem;
+}
+.box-3 h2 {
+    padding: 1rem;
+}
+.box-3 p {
+    padding: 1rem; 
+    font-size: 11px;
+}
+.box-3 h4 {
+    padding: 2rem;
 }
