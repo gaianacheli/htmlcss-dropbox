@@ -49,6 +49,9 @@ body{
 }
 
 /*main*/
+.content {
+    padding: 3rem;
+}
 a.btn{
     background-color: rgba(0, 97, 255, 1);
     color: white;
@@ -58,14 +61,18 @@ a.btn{
 }
 .titolo {
     font-size: 78px;
-    padding: 4rem 9rem;
 }
 .text {
-    height: 197px;
-    width: 392px;
+    width: 20%;
     line-height: 1.5;
     display: inline-block;
-    margin-left: 150px;
+    margin-top: 50px;
+}
+.jumbo {
+    position: absolute;
+    width: 50%;
+    margin-left: 550px;
+    margin-top: 50px;
 }
 a.btn2 {
     background-color: rgba(0, 97, 255, 1);
@@ -80,24 +87,14 @@ a.btn2 {
     margin-top: 2rem;
 }
 .stop {
-    padding-top: 0.5rem;
+    margin-top: 0.5rem;
     font-size: 12px;
 }
 .freccia{
     font-size: 40px;
     margin-top: 3rem;
 }
-.img {
-    float: right;
-    height: 590px;
-    margin-right: 150px;
-    width: 55%;
-    background-image: url(../img/jumbo\ \(1\).png);
-    background-size: cover;
-}
-.site_main{
-    position: relative;
-}
+
 .tariffe h1 {
     padding-top: 6rem;
     margin-left: 342px;
