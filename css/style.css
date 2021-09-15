@@ -10,8 +10,12 @@
 }
 .debug main {
     height: 2000px;
-    background-color: tomato;
 }
+.debug header {
+    height: 1000px;
+    background-color: rgba(180, 208, 231, 1);
+}
+
 .list-inline li {
     list-style: none;
     display: inline-block;
@@ -106,9 +110,20 @@ a.btn2 {
     background-image: url(../img/jumbo\ \(1\).png);
     background-size: contain;
 }
+.site_main{
+    position: relative;
+}
+.tariffe{
+    height: 1500px;
+    width: 2000px;
+    background-color: tan;
+    position: absolute;
+    top: 12%;
+    left: 16%;
+}
 .tariffe h1 {
     text-align: center;
-    padding-top: 288px;
+    padding-top: 3rem;
     font-size: 50px;
 }
 .box1 {
@@ -116,16 +131,15 @@ a.btn2 {
     width: 300px;
     float: left;
     background-color: teal;
-    margin-left: 800px;
+    margin-left: 346px;
     margin-top: 200px;
-   
 }
 .box3 {
     height: 500px;
     width: 300px;
     float: right;
     background-color: teal;
-    margin-right: 800px;
+    margin-right: 334px;
     margin-top: 200px;
 }
 .box2{
@@ -133,8 +147,15 @@ a.btn2 {
     width: 300px;
     background-color: teal;
     margin-top: 200px;
-    margin-left: 190px;
+    margin-left: 212px;
     display: inline-block;
-    
+}
+.box4 {
+    height: 200px;
+    width: 1214px;
+    background-color: teal;
+    position: absolute;
+    top: 77%;
+    left: 19%;
 }
 
