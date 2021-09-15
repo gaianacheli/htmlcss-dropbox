@@ -11,9 +11,8 @@
 .debug main {
     height: 2000px;
 }
-.debug header {
-    height: 1000px;
-    background-color: rgba(180, 208, 231, 1);
+.content {
+    background-color:rgba(180, 208, 231, 1) ;
 }
 
 .list-inline li {
@@ -35,13 +34,8 @@ nav.content {
     display: inline;
     float: right;
     width: 700px;
-   
 }
-.site_hearder {
-    height: 1000px;
-    background-color: rgba(180, 208, 231, 1);
-    line-height: 50px;
-}
+
 .logo {
     margin-left: 1rem;
     margin-top: 1rem;
@@ -68,13 +62,13 @@ a.btn{
     margin-left: 3rem;
     
 }
-.titolo h1 {
-    line-height: 1;
-    font-size: 115px;
-    padding: 4rem;
-    margin-left: 86px;
+.titolo {
+    font-size: 78px;
+    padding: 4rem 9rem;
+
 }
 .text {
+    float: left;
     height: 197px;
     width: 392px;
     line-height: 1.5;
@@ -103,10 +97,10 @@ a.btn2 {
 }
 .img {
     float: right;
-    height: 750px;
-    margin-right: 300px;
+    height: 590px;
+    margin-right: 150px;
     float: right;
-    width: 1370px;
+    width: 55%;
     background-image: url(../img/jumbo\ \(1\).png);
     background-size: contain;
 }
@@ -118,8 +112,8 @@ a.btn2 {
     width: 2000px;
     
     position: absolute;
-    top: 12%;
-    left: 16%;
+    top: 50%;
+    left: 50%;
 }
 .tariffe h1 {
     text-align: center;
