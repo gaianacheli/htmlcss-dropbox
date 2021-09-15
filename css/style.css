@@ -110,10 +110,8 @@ a.btn2 {
 .tariffe{
     height: 1500px;
     width: 2000px;
-    
     position: absolute;
-    top: 50%;
-    left: 50%;
+  
 }
 .tariffe h1 {
     text-align: center;
