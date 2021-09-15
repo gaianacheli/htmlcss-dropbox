@@ -114,9 +114,9 @@ a.btn2 {
   
 }
 .tariffe h1 {
-    text-align: center;
-    padding-top: 3rem;
-    font-size: 50px;
+    padding-top: 6rem;
+    margin-left: 342px;
+    font-size: 38px;
 }
 .box1 {
     height: 500px;
@@ -145,9 +145,28 @@ a.btn2 {
 .box4 {
     height: 200px;
     width: 1214px;
-    background-color: teal;
+    background-color: rgb(13, 0, 128);
     position: absolute;
     top: 77%;
     left: 19%;
 }
-
+.ceck {
+    height: 50px;
+    width: 400px;
+    padding-top: 2rem;
+    position: absolute;
+    left: 17%;
+}
+.cerchio1{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(0, 97, 255, 1);;
+    
+}
+.mesi{
+    position: absolute;
+    left: 25px;
+}
