@@ -8,13 +8,9 @@
     display: table;
     clear: both;
 }
-.debug main {
-    height: 2000px;
-}
 .content {
     background-color:rgba(180, 208, 231, 1) ;
 }
-
 .list-inline li {
     list-style: none;
     display: inline-block;
@@ -35,9 +31,8 @@ nav.content {
     float: right;
     width: 700px;
 }
-
 .logo {
-    margin-left: 1rem;
+    margin-left: 100px;
     margin-top: 1rem;
     padding: 10px;
     height: 50px;
@@ -50,8 +45,7 @@ nav.content {
 .menu a {
     padding-left: 3rem;
     text-decoration: none;
-    color: black;
-    
+    color: black; 
 }
 a.btn{
     background-color: rgba(0, 97, 255, 1);
@@ -59,12 +53,10 @@ a.btn{
     text-decoration: none;
     padding: 0.5rem 1rem ;
     margin-left: 3rem;
-    
 }
 .titolo {
     font-size: 78px;
     padding: 4rem 9rem;
-
 }
 .text {
     height: 197px;
@@ -97,10 +89,9 @@ a.btn2 {
     float: right;
     height: 590px;
     margin-right: 150px;
-    float: right;
     width: 55%;
     background-image: url(../img/jumbo\ \(1\).png);
-    background-size: contain;
+    background-size: cover;
 }
 .site_main{
     position: relative;
