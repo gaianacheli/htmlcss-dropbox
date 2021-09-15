@@ -203,19 +203,35 @@ a.btn2 {
     padding: 1rem;
 }
 .box1 p {
-    padding: 1rem;
+    padding: 1rem; 
+    font-size: 11px;
 }
 .specifiche {
     color: rgba(128, 128, 128, 0.589);
+    padding-top:0.5rem ;
 }
 .prova {
     text-decoration: none;
     color: white;
     background-color:rgba(0, 97, 255, 1); 
-    padding: 10px;
-    position: absolute;
+    padding: 10px 15px;
+    border-color: transparent;
     margin-left: 40px;
     margin-top: 40px;
 
 }
-
+.acquista {
+   color: rgba(0, 97, 255, 1); 
+}
+.separa {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 2rem;
+    color: rgba(128, 128, 128, 0.541);
+}
+.box1 h4 {
+    padding: 2rem;
+}
+.fa-check {
+    color: rgba(0, 97, 255, 1); 
+}
