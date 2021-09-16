@@ -327,15 +327,52 @@ a.btn2 {
     background-color: rgba(255, 28, 28, 1) ;
 }
 .centro{
+    height: 400px;
     width: 40%;
     float: left;
-    
     background-color: rgba(245, 245, 245, 1);
     
 }
-.logo5 {
-    width: 30%;
-    margin: 2rem;
+.world {
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: rgba(213, 0, 31, 1);
+    background-size: 55% 81%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/world_bicycle_relief\ 1.svg);
+
+}
+.hearst {
+    height: 200px;
+    width: 50%;
+    float: right;
+    background-size: 55% 81%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/hearst_corp\ 1.svg);
+    background-color: rgba(180, 208, 231, 1);
+}
+.lonely {
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color:  rgba(13, 36, 129, 1);
+    background-size: 55% 81%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/lonely_planet\ 1.svg);
+}
+.clear {
+    height: 200px;
+    width: 50%;
+    float: right;
+    background-size: 55% 81%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/lonely_planet\ 1.svg);
+    background-color: rgba(255, 216, 48, 1);
 }
 .line {
     width: 50px;
@@ -348,30 +385,11 @@ a.btn2 {
 .destra {
     width: 30%;
     float: left;
+
 }
-.logo6{
-    height: 200px;
-    width: 50%;
-    float: left;
-    background-color: rgba(213, 0, 31, 1);
-}
-.logo7 {
-    height: 200px;
-    width: 50%;
-    float: right;
-    background-color: rgba(180, 208, 231, 1);
-}
-.logo8 {
-    height: 200px;
-    width: 50%;
-    float: left;
-    background-color: rgba(13, 36, 129, 1);
-}
-.logo9 {
-    height: 200px;
-    width: 50%;
-    float: right;
-    background-color: rgba(255, 216, 48, 1);
+.logo5 {
+    width: 30%;
+    margin: 2rem;
 }
 /*main settima parte*/
 .sotto {
