@@ -487,3 +487,14 @@ a.btn2 {
     width: 20%;
     float: right;
 }
+.sep {
+    width: 130px;
+    margin-top: 80px;
+}
+.lingua {
+    margin-top: 2rem;
+    color: rgba(255, 255, 255, 0.466);
+}
+.fa-globe-americas {
+    margin-right: 5px;
+}
