@@ -331,7 +331,7 @@ a.btn2 {
 .sinistra {
     width: 30%;
     float: left;
-    background-color: rgba(0, 0, 0, 0.24);
+    
 }
 .logo1{
     height: 200px;
@@ -357,4 +357,46 @@ a.btn2 {
     width: 50%;
     float: right;
     background-color: rgba(255, 28, 28, 1);
+}
+.centro{
+    width: 40%;
+    float: left;
+    background-color: rgba(245, 245, 245, 1);
+    
+}
+.logo5 {
+    width: 30%;
+    margin: 2rem;
+}
+.line {
+    width: 50px;
+    color: rgba(0, 0, 0, 0.459);
+    margin-left: 3rem;
+}
+.centro p {
+    margin: 3rem;
+}
+.destra {
+    width: 30%;
+    float: left;
+}
+.logo6{
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.logo7 {
+    height: 200px;
+    width: 50%;
+    float: right;
+}
+.logo8 {
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.logo9 {
+    height: 200px;
+    width: 50%;
+    float: right;
 }
