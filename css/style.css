@@ -72,7 +72,6 @@ a.btn{
 .jumbo {
     position: absolute;
     width: 50%;
-    bottom: -100px;
     right: 10rem;
 }
 a.btn2 {
@@ -103,36 +102,13 @@ a.btn2 {
     font-size: 38px;
     margin-bottom: 2rem;
 }
-.cerchio1{
-  height: 20px;
-  width: 20px;
-  border: solid;
-  display: inline-block;
-}
-.mensile {
-    display: inline-block;
-}
-.box-1 {
-    width: 30%;
-    border-style: solid;
-    border-color: #bdbabad4;
-    border-width: 2px;
+.card{
+    width: 30%;;
     float: left;
-    margin-right: 5rem;
-}
-.box-3 {
-    width: 30%;
-    float: right;
     border-style: solid;
     border-color: #bdbabad4;
     border-width: 2px;
-}
-.box-2{
-    width: 30%;
-    border-style: solid;
-    border-color: #bdbabad4;
-    border-width: 2px;
-    display: inline-block;
+    margin: 1%;
 }
 .box-4 {
     width: 100%;
@@ -142,7 +118,6 @@ a.btn2 {
     margin-bottom: 3rem;
     border-width: 2px;
     float: left;
-   
 }
 .info {
     width: 80%;
@@ -158,13 +133,11 @@ a.btn2 {
     padding: 10px;
     margin-right: 1rem;
 }
-
 .mesi{
     font-size: 11px;
     position: absolute;
     left: 18px;
 }
-
 .anno{
     font-size: 11px;
     position: absolute;
@@ -177,10 +150,10 @@ a.btn2 {
 .fa-pencil{
     font-size: 10px;
 }
-.box-1 h2 {
+.card h2 {
     padding: 1rem;
 }
-.box-1 p {
+.card p {
     padding: 1rem; 
     font-size: 11px;
 }
@@ -212,31 +185,11 @@ a.btn2 {
     margin-top: 2rem;
     color: rgba(128, 128, 128, 0.541);
 }
-.box-1 h4 {
+.card h4 {
     padding: 2rem;
 }
 .fa-check {
     color: rgba(0, 97, 255, 1); 
-}
-.box-2 h2 {
-    padding: 1rem;
-}
-.box-2 p {
-    padding: 1rem; 
-    font-size: 11px;
-}
-.box-2 h4 {
-    padding: 2rem;
-}
-.box-3 h2 {
-    padding: 1rem;
-}
-.box-3 p {
-    padding: 1rem; 
-    font-size: 11px;
-}
-.box-3 h4 {
-    padding: 2rem;
 }
 .box-4 h2  {
     padding: 1rem;
@@ -337,7 +290,9 @@ a.btn2 {
 .sinistra {
     width: 30%;
     float: left;
-    
+}
+.link1 {
+    color: rgba(0, 97, 255, 1);
 }
 .logo1{
     height: 200px;
@@ -422,7 +377,6 @@ a.btn2 {
     margin-left: 200px;
     padding-top: 32rem;
     padding-bottom: 5rem;
-
 }
 .btn8 {
     width: 20%;
@@ -434,7 +388,6 @@ a.btn2 {
     text-decoration: none;
     color: black;
     text-align: center;
-
 }
 /*main ottava parte */
 .sezione8 {
@@ -453,7 +406,7 @@ a.btn2 {
 }
 .fa-angle-down {
     float: right;
-    margin-top: -1rem;
+    margin-top: -3rem;
 }
 
 /*footer*/
@@ -462,9 +415,11 @@ a.btn2 {
     padding: 4rem;
     background-color: black;
 }
-.dropbox {
+.opzioni{
     width: 20%;
-    display: inline-block;
+    float: left;
+    margin-bottom: 2rem;
+
 }
 .cat {
     color: white;
@@ -474,23 +429,6 @@ a.btn2 {
     list-style: none;
     margin-bottom: 5px;
     color: white;
-}
-
-.prodotti {
-    width: 20%;
-    float: left;
-}
-.azienda {
-    width: 20%;
-    display: inline-block;
-}
-.supporto {
-    width: 20%;
-    float: right;
-}
-.community {
-    width: 20%;
-    float: right;
 }
 .sep {
     width: 130px;
