@@ -284,34 +284,52 @@ a.btn2 {
 .link1 {
     color: rgba(0, 97, 255, 1);
 }
-.logo1{
-    height: 200px;
-    width: 50%;
-    float: right;
-    background-color: rgba(97, 8, 43, 1);
-}
-.logo2 {
+.designt{
     height: 200px;
     width: 50%;
     float: left;
+    background-image: url(../img/designit\ 1.svg);
+    background-size: 55% 81%;
+    background-position: center;
+    background-repeat: no-repeat;
     border: solid rgba(208, 233, 205, 1);
     background-color: rgba(162, 211, 155, 1);
 }
-.logo3{
-    height: 200px;
-    width: 50%;
-    float: left;
-    background-color: rgba(0, 147, 206, 1);
-}
-.logo4 {
+.asu {
     height: 200px;
     width: 50%;
     float: right;
-    background-color: rgba(255, 28, 28, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55% 81%;
+    background-image: url(../img/arizona_state_university\ 1.svg);
+    background-color: rgba(97, 8, 43, 1);
+}
+
+.florida{
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-size: 55% 81%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/university_of_florida\ 1.svg);
+    background-color: rgba(0, 147, 206, 1);
+}
+.topps{
+    height: 200px;
+    width: 50%;
+    float: right;
+    background-size: 55% 81%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/topps\ 1.svg);
+    background-color: rgba(255, 28, 28, 1) ;
 }
 .centro{
     width: 40%;
     float: left;
+    
     background-color: rgba(245, 245, 245, 1);
     
 }
