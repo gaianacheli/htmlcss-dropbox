@@ -432,7 +432,7 @@ a.btn2 {
 }
 /*main ottava parte */
 .sezione8 {
-    padding: 90px 200px 2rem;
+    padding: 90px 200px 8rem;
 }
 .domande {
     font-size: 30px;
@@ -448,4 +448,42 @@ a.btn2 {
 .fa-angle-down {
     float: right;
     margin-top: -1rem;
+}
+
+/*footer*/
+.site_footer {
+    width: 100%;
+    padding: 4rem;
+    background-color: black;
+}
+.dropbox {
+    width: 20%;
+    float: left;
+    display: inline-block;
+}
+.cat {
+    color: white;
+    margin-bottom: 1rem;
+}
+.list li{
+    list-style: none;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.prodotti {
+    width: 20%;
+    float: left;
+}
+.azienda {
+    width: 20%;
+    display: inline-block;
+}
+.supporto {
+    width: 20%;
+    float: right;
+}
+.community {
+    width: 20%;
+    float: right;
 }
