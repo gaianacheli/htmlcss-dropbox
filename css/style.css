@@ -292,7 +292,6 @@ a.btn2 {
 .card-2 {
     width: 30%;
     float: left;
-    
 }
 .p1{
     font-size: 15px;
@@ -304,17 +303,58 @@ a.btn2 {
 }
 .card-4 {
     margin-top: 1rem;
+    margin-bottom: 200px;
     width: 30%;
     float: left;
     margin-right: 4rem;
 }
 .card-5 {
     margin-top: 1rem;
+    margin-bottom: 200px;
     width: 30%;
     float: left;
 }
 .card-6 {
     margin-top: 1rem;
+    margin-bottom: 200px;
     width: 30%;
     float: right;
+}
+/*main quinta parte*/
+.sezione5 {
+    padding: 90px 200px 2rem;
+}
+.tit7 {
+    font-size: 55px;
+}
+/*main sesta parte*/
+.sinistra {
+    width: 30%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.logo1{
+    height: 200px;
+    width: 50%;
+    float: right;
+    background-color: rgba(97, 8, 43, 1);
+}
+.logo2 {
+    height: 200px;
+    width: 50%;
+    float: left;
+    border: solid rgba(208, 233, 205, 1);
+    background-color: rgba(162, 211, 155, 1);
+}
+.logo3{
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: rgba(0, 147, 206, 1);
+}
+.logo4 {
+    height: 200px;
+    width: 50%;
+    float: right;
+    background-color: rgba(255, 28, 28, 1);
 }
