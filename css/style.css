@@ -49,8 +49,9 @@ body{
 }
 
 /*main prima sezione*/
+
 .content {
-    padding: 3rem;
+    padding: 3rem ;
 }
 a.btn{
     background-color: rgba(0, 97, 255, 1);
@@ -96,7 +97,7 @@ a.btn2 {
 }
 /*main seconda sezione */
 .tariffe {
-    padding: 200px;
+    padding: 200px 200px 0px;
 }
 .tariffe h1 {
     font-size: 38px;
@@ -132,6 +133,7 @@ a.btn2 {
     border-style: solid;
     border-color: #bdbabad4;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     border-width: 2px;
     float: left;
    
@@ -210,7 +212,6 @@ a.btn2 {
 .fa-check {
     color: rgba(0, 97, 255, 1); 
 }
-
 .box-2 h2 {
     padding: 1rem;
 }
@@ -239,4 +240,65 @@ a.btn2 {
 }
 .soluzioni {
     padding: 1rem;
+}
+
+/*main terza sezione */
+.sezione3 {
+    padding: 20px 200px 0px;
+}
+
+.testo {
+    width: 40%;
+    float: right;
+    padding: 4rem;
+}
+.testo h3 {
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+.testo p {
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+.partener {
+    width: 60%;
+}
+.btn5 {
+    border: solid;
+    padding: 5px;
+    color: rgb(111 105 105);
+    text-decoration: none;
+    border-width: 2px;
+}
+
+/*main quarta sezione*/
+
+.sezione4 {
+    padding: 90px 200px 2rem;
+
+}
+.card-1 {
+    width: 30%;
+    float: left;
+    margin-right: 4rem;
+}
+.img1 {
+    width: 100%;
+}
+.card-3 {
+    width: 30%;
+    float: right;
+}
+.card-2 {
+    width: 30%;
+    float: left;
+    margin-right: 1rem;
+}
+.p1{
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.tit4 {
+    font-size: 20px;
+
 }
