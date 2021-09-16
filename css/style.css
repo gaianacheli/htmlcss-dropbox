@@ -48,7 +48,7 @@ body{
     color: black; 
 }
 
-/*main*/
+/*main prima sezione*/
 .content {
     padding: 3rem;
 }
@@ -71,8 +71,8 @@ a.btn{
 .jumbo {
     position: absolute;
     width: 50%;
-    margin-left: 550px;
-    margin-top: 50px;
+    bottom: -100px;
+    right: 10rem;
 }
 a.btn2 {
     background-color: rgba(0, 97, 255, 1);
@@ -94,83 +94,69 @@ a.btn2 {
     font-size: 40px;
     margin-top: 3rem;
 }
-
+/*main seconda sezione */
+.tariffe {
+    padding: 200px;
+}
 .tariffe h1 {
-    padding-top: 6rem;
-    margin-left: 342px;
     font-size: 38px;
+    margin-bottom: 2rem;
 }
 .box-1 {
-    height: 900px;
-    width: 300px;
+    width: 30%;
     border-style: solid;
     border-color: #bdbabad4;
     border-width: 2px;
     float: left;
-    margin-left: 346px;
-    margin-top: 90px;
+    margin-top: 111px;
+    margin-right: 5rem;
 }
 .box-3 {
-    height: 900px;
-    width: 300px;
+    width: 30%;
     float: right;
     border-style: solid;
     border-color: #bdbabad4;
     border-width: 2px;
-    margin-right: 334px;
-    margin-top: 90px;
+    margin-top: 111px;
 }
 .box-2{
-    height: 900px;
-    width: 300px;
+    width: 30%;
     border-style: solid;
     border-color: #bdbabad4;
     border-width: 2px;
     margin-top: 90px;
-    margin-left: 212px;
     display: inline-block;
 }
 .box-4 {
-    height: 230px;
-    width: 1326px;
+    width: 100%;
     border-style: solid;
     border-color: #bdbabad4;
+    margin-top: 3rem;
     border-width: 2px;
-    position: absolute;
-    top: 77%;
-    left: 17%;
+    float: left;
+   
 }
-.ceck {
-    height: 50px;
-    width: 400px;
-    padding-top: 2rem;
-    position: absolute;
-    left: 17%;
+.info {
+    width: 80%;
 }
-.cerchio1{
-    height: 15px;
-    width: 15px;
-    position: absolute;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: rgba(0, 97, 255, 1);
-    
+.contatto {
+    width: 20%;
+    float: right;
+    margin-top: -120px;
+    background-color: rgba(0, 97, 255, 1);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-right: 1rem;
 }
+
 .mesi{
     font-size: 11px;
     position: absolute;
     left: 18px;
 }
-.cerchio2 {
-    height: 15px;
-    width: 15px;
-    position: absolute;
-    left: 200px;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: thin;
-    border-color: grey
-}
+
 .anno{
     font-size: 11px;
     position: absolute;
@@ -192,17 +178,22 @@ a.btn2 {
 }
 .specifiche {
     color: rgba(128, 128, 128, 0.589);
-    padding-top:0.5rem ;
+    margin-top: -27px;
+}
+.fa-building{
+    padding-right: 6px;
+}
+.fa-user{
+    padding-right: 6px;
 }
 .prova {
     text-decoration: none;
     color: white;
-    background-color:rgba(0, 97, 255, 1); 
-    padding: 10px 15px;
+    background-color: rgba(0, 97, 255, 1);
+    padding: 6px 80px;
     border-color: transparent;
-    margin-left: 40px;
-    margin-top: 40px;
-
+    margin-left: 46px;
+    width: 15%;
 }
 .acquista {
    color: rgba(0, 97, 255, 1); 
