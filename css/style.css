@@ -292,7 +292,7 @@ a.btn2 {
 .card-2 {
     width: 30%;
     float: left;
-    margin-right: 1rem;
+    
 }
 .p1{
     font-size: 15px;
@@ -301,4 +301,20 @@ a.btn2 {
 .tit4 {
     font-size: 20px;
 
+}
+.card-4 {
+    margin-top: 1rem;
+    width: 30%;
+    float: left;
+    margin-right: 4rem;
+}
+.card-5 {
+    margin-top: 1rem;
+    width: 30%;
+    float: left;
+}
+.card-6 {
+    margin-top: 1rem;
+    width: 30%;
+    float: right;
 }
