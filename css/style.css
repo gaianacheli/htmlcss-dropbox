@@ -52,6 +52,7 @@ body{
 
 .content {
     padding: 3rem ;
+    position: relative;
 }
 a.btn{
     background-color: rgba(0, 97, 255, 1);
@@ -132,16 +133,6 @@ a.btn2 {
     text-align: center;
     padding: 10px;
     margin-right: 1rem;
-}
-.mesi{
-    font-size: 11px;
-    position: absolute;
-    left: 18px;
-}
-.anno{
-    font-size: 11px;
-    position: absolute;
-    left: 219px;
 }
 .piano {
     text-align: center;
@@ -234,7 +225,6 @@ a.btn2 {
 
 .sezione4 {
     padding: 90px 200px 2rem;
-
 }
 .card-1 {
     width: 30%;
@@ -258,7 +248,6 @@ a.btn2 {
 }
 .tit4 {
     font-size: 20px;
-
 }
 .card-4 {
     margin-top: 1rem;
