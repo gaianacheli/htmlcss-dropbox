@@ -431,3 +431,21 @@ a.btn2 {
 
 }
 /*main ottava parte */
+.sezione8 {
+    padding: 90px 200px 2rem;
+}
+.domande {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+.dom {
+    margin-bottom: 2rem;
+}
+.separatore {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.fa-angle-down {
+    float: right;
+    margin-top: -1rem;
+}
