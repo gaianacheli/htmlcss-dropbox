@@ -43,9 +43,10 @@ body{
     vertical-align: middle;
 }
 .list-inline a {
-    padding-left: 3rem;
+    margin-left: 3rem;
     text-decoration: none;
     color: black; 
+    transition: 2s;
 }
 
 /*main prima sezione*/
